@@ -4,7 +4,7 @@ def is_square(n):
     elif n == 0:
         return True
     elif n >= 1:
-        square = 2 * n 
+        square = 2 ** n 
         if square % 2 == 0:
             return True
         else:
