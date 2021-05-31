@@ -1,13 +1,16 @@
-""" Escriba una función que acepte una matriz de 10 enteros (entre 0 y 9), que devuelva una cadena de esos números en forma de número de teléfono. """
+""" Write a function that accepts an array of 10 integers (between 0 and 9), that returns a string of those numbers in the form of a phone number.
+
+ """
 
 
 def create_phone_number(n):
-   
+    #check long of n
     long = len(n)
     if long > 10:
         return False
     elif long < 10:
         return False
+    #if long is ok proced to print in format
     elif long == 10:
         n = "".join(map(str, n))
         return "(" + n[0:3] + ")" + " " + n[3:6] + "-" + n[6:]
