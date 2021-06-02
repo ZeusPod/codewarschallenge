@@ -7,9 +7,13 @@ def is_pangram(s):
     for alphabet in s:
         if alphabet not in s:
             return False 
+        elif len(s) < 27:
+            return False
+        
         else:
             return True
     
 s = "The quick, brown fox jumps over the lazy dog!"
 me_string = is_pangram(s)
 print(me_string)
+
