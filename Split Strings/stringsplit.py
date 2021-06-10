@@ -1,4 +1,4 @@
-s = ('djksmowjddksjjdh')
+s = ('djksmowjddksjjde')
 
 def solution(s):
     list1 = []
