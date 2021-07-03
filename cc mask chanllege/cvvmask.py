@@ -10,4 +10,3 @@ def maskcvv(cc):
 cc = input("Please introduce CC number: ").strip()
 mycard = maskcvv(cc) 
 print = mycard
-
