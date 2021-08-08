@@ -33,3 +33,5 @@ Codewars is a :shinto_shrine:	 community of developers, who are called Code Warr
 * Credit Card Mask
 * Multiply
 
+
+![](https://www.codewars.com/users/ZeusPod/badges/large)
