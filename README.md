@@ -5,7 +5,7 @@
  <p>
 Codewars is a :shinto_shrine:	 community of developers, who are called Code Warriors (or just warriors), that train on improving their development skills. Think of it like a coding dojo :martial_arts_uniform:	- where developers train with each other and help each other get better through practice </p>
 
-## **Completes Python's Kata** 
+## **Completes Python's Kata** ![](https://www.python.org/static/img/python-logo.png) 
 
 
 * Remove String Spaces
