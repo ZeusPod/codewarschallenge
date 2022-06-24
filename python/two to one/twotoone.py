@@ -22,3 +22,7 @@ def longest(a1,a2):
 
 me_string = longest(a1,a2)
 print(me_string)
+
+me_string = longest("aretheyhere", "yestheyarehere")
+print(me_string)
+

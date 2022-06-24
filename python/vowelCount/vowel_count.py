@@ -1,6 +1,8 @@
 import doctest
 
-def get_count(setence):
+
+#Funcion que cuenta las vocales en una cadena
+def get_count(setence:list):
     """
     >>> get_count('Hello World')
     3
@@ -18,5 +20,7 @@ def get_count(setence):
 
 
 doctest.testmod()
+
+
 
 
