@@ -19,4 +19,5 @@ def sum_array(a):
         return round(total,2)
 
 
+
 doctest.testmod()

@@ -4,7 +4,6 @@
 
 
 def create_phone_number(n):
-    #check long of n
     long = len(n)
     if long > 10:
         return False

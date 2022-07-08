@@ -1,4 +1,4 @@
-print("Bienvenidos a la programacion con python y nvim, solo para freeks :D")
+print("Bienvenidos a la programacion con python y nvim, solo para freeks o nerds si no te gusta ni lo veas mamaguebo esta mierda es mia ")
 
 a = int(input("Hola por favor introduce tu primer numero: ")) 
 b = int(input("Hola por favor introduce tu segundo numero: "))
