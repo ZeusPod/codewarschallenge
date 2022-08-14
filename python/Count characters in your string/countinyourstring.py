@@ -16,7 +16,7 @@ def count_char(text):
 
 
 
-text = 'Bienvenidos a la clase de programacion'
+text = "Hi how are things? How are you? Are you a developer? I am also a developer"
 
 mychar = count_char(text)
 print(mychar)
