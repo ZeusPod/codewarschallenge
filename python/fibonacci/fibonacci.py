@@ -1,21 +1,21 @@
-n = 9
+import doctest
 
-def fib(n):
-    a = 0
-    b = 1
+def fib(n:int)->int:
+    """
+    Funcion que obtiene el resultado fibonacci de un numero determinado
     
-    if n < 0:
-        print("Incorrect input your number is negative")
-    elif n == 0:
-        return a
-    elif n == 1:
-        return b
-    else: 
-        for i in range(1,n):
-            c = a + b
-            a = b 
-            b = c
-        return b 
+    >>> fib(8)
+    21
+    
+    >>> fib(4)
+    3
+    """
 
-me_fibo = fib(9)
-print (me_fibo)
+    
+
+    if n < 2:
+        return n
+    else:
+        return fib(n-1) + fib(n -2)
+
+doctest.testmod()
