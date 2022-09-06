@@ -1,12 +1,22 @@
+import doctest
+
 
 def remove_duplicates(arr)->list:
-    list_aux=set(arr)
-    return list(list_aux)
+    """
+    this fuction remove duplicates in array
+    
+    >>> remove_duplicates([1,1,2,2,3,3,4])
+    [1, 2, 3, 4]
+   
+    >>> remove_duplicates([16,5,3,16,1,16])
+    [16, 1, 3, 5]
+    
+
+    """
+    return list(set(arr))
 
 
-arr=[1,5,1,3,2,1,5,1,9,8,7,6,3]
 
-print(remove_duplicates(arr))
-
+doctest.testmod()
 
 
