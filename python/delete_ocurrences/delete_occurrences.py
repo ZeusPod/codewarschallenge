@@ -1,5 +1,4 @@
 from collections import Counter
-
 def delete_nth(order,max_e):
     result=[]
     for x in order:

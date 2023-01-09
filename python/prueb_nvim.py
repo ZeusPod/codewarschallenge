@@ -1,8 +1,10 @@
-print("Bienvenidos a la programacion con python y nvim, solo para freeks o nerds si no te gusta ni lo veas mamaguebo esta mierda es mia ")
+list1=[1,2,3,4,5,6,7,8,9,10]
 
-a = int(input("Hola por favor introduce tu primer numero: ")) 
-b = int(input("Hola por favor introduce tu segundo numero: "))
+def even_odd(n:int):
+    if n % 2 == 0:
+        print(n,'is even')
+    else:
+        print(n,'is odd')
 
-list_numbers = [a,b]
-list_numbers.sort()
-print(f"el numero mas grande es: {list_numbers[1]}")
+result= list(map(even_odd, list1))
+
