@@ -21,7 +21,6 @@ def sort_by_length(array:list)->list:
 
 
 
-
 if __name__ == "__main__":
     doctest.testmod()
 
